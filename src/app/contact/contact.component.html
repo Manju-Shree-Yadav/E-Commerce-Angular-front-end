@@ -1,0 +1,68 @@
+<!-- Contact Page Header -->
+<header class="contact-header">
+  <h1>Contact Us</h1>
+  <p>We would love to hear from you! Please use the form below to reach out.</p>
+</header>
+
+<!-- Contact Information Section -->
+<section class="contact-info">
+  <h2>Contact Information</h2>
+  <div class="contact-details">
+    <div class="contact-item">
+      <h3>Address</h3>
+      <p>123 E-Commerce St, Tech City, 98765</p>
+    </div>
+    <div class="contact-item">
+      <h3>Email</h3>
+      <p><a href="mailto:support&#64;yourecommerce.com">support&#64;yourecommerce.com</a></p>
+    </div>
+    <div class="contact-item">
+      <h3>Phone</h3>
+      <p><a href="tel:+1234567890">+1 (234) 567-890</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Form Section -->
+<section class="contact-form">
+  <h2>Send Us a Message</h2>
+  <form (submit)="onSubmit()" #contactForm="ngForm">
+    <div class="form-group">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" ngModel required placeholder="Enter your name" />
+    </div>
+    <div class="form-group">
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" ngModel required placeholder="Enter your email" />
+    </div>
+    <div class="form-group">
+      <label for="message">Your Message</label>
+      <textarea id="message" name="message" ngModel required placeholder="Enter your message" rows="4"></textarea>
+    </div>
+    <div class="form-group">
+      <button type="submit" [disabled]="!contactForm.valid">Send Message</button>
+    </div>
+  </form>
+</section>
+
+<!-- Map Section -->
+<section class="map-section">
+  <h2>Our Location</h2>
+  <div class="map">
+    <!-- You can use Google Maps Embed API to show a map -->
+    <iframe
+      src="https://www.google.com/maps/embed?pb=...your-google-map-link..."
+      width="100%" height="300" frameborder="0" style="border:0" allowfullscreen>
+    </iframe>
+  </div>
+</section>
+
+<!-- Social Media Section -->
+<section class="social-media">
+  <h2>Follow Us</h2>
+  <div class="social-links">
+    <a href="https://facebook.com" target="_blank">Facebook</a>
+    <a href="https://twitter.com" target="_blank">Twitter</a>
+    <a href="https://instagram.com" target="_blank">Instagram</a>
+  </div>
+</section>

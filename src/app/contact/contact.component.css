@@ -1,0 +1,158 @@
+/* Contact Page Styles */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact-header {
+    text-align: center;
+    padding: 40px;
+    background-color: #131921;
+    color: white;
+  }
+  
+  .contact-header h1 {
+    font-size: 2.5em;
+  }
+  
+  .contact-header p {
+    font-size: 1.2em;
+  }
+  
+  /* Contact Information Section */
+  .contact-info {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .contact-info h2 {
+    text-align: center;
+    font-size: 2.2em;
+  }
+  
+  .contact-details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .contact-item {
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .contact-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .contact-item p {
+    font-size: 1.1em;
+  }
+  
+  .contact-item a {
+    color: #0073e6;
+    text-decoration: none;
+  }
+  
+  .contact-item a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Contact Form Section */
+  .contact-form {
+    padding: 40px 20px;
+    background-color: #fff;
+  }
+  
+  .contact-form h2 {
+    text-align: center;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .contact-form label {
+    font-size: 1.2em;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    background-color: #ff9900;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .contact-form button:disabled {
+    background-color: #ccc;
+  }
+  
+  .contact-form button:hover {
+    background-color: #e68900;
+  }
+  
+  /* Map Section */
+  .map-section {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .map {
+    text-align: center;
+  }
+  
+  .map iframe {
+    border: none;
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+  }
+  
+  /* Social Media Section */
+  .social-media {
+    padding: 40px 20px;
+    background-color: #131921;
+    color: white;
+  }
+  
+  .social-media h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-links a {
+    color: white;
+    margin: 0 15px;
+    font-size: 1.2em;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  
