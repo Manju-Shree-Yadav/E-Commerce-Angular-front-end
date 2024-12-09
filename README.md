@@ -1,4 +1,5 @@
 # MyEcomApp
+![logo](https://github.com/user-attachments/assets/e50133d9-b366-4cb4-bcaf-be1efefad52c)
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.4.
 
@@ -53,6 +54,11 @@ ng e2e
 ```
 
 Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## output Images
+![p4](https://github.com/user-attachments/assets/89256742-f676-4714-b259-1b5cf0fcfd90)
+![p1](https://github.com/user-attachments/assets/bad25e85-08e6-4680-8f44-fdc9583d1553)
+![p2](https://github.com/user-attachments/assets/02c8643a-b6f3-4809-a622-268514b44614)
+![p3](https://github.com/user-attachments/assets/1091ed20-6d2f-43e2-8500-cbc59d50e6bc)
 
 ## Additional Resources
 
